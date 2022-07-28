@@ -1,7 +1,7 @@
 import React from 'react'
 import LinkButton from '../Components/LinkButton'
 import classes from "./Home.module.css"
-
+import ServiceList from "../Components/Services/servicesList";
 
 
 const Home = () => {
@@ -13,6 +13,9 @@ const Home = () => {
       <h2>We are team of talented designers</h2>
 
       <LinkButton title={"Get started"} />
+
+      <ServiceList />
+      
     </div>
   )
 }
