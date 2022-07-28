@@ -1,0 +1,31 @@
+.item{
+    margin: 20px;
+    text-align: left;
+    background-color: aliceblue;
+    padding: 60px 20px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.676);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item li{
+    list-style: none;
+}
+
+.title{
+    color: #07365c;
+    font-size: 1.8rem;
+    margin: 20px 0;
+}
+
+.body{
+    color: grey;
+    font-size: 1.3rem;
+}
+
+.logo{
+    width: 10%;
+    
+}
