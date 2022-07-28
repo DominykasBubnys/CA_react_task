@@ -1,8 +1,16 @@
 import React from 'react'
 
-const ServiceItem = () => {
+const ServiceItem = ({title, body}) => {
   return (
-    <div>ServiceItem</div>
+    <ul>
+      <li>
+        {title}
+      </li>
+
+      <li>
+        {body}
+      </li>
+    </ul>
   )
 }
 

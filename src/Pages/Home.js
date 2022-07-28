@@ -2,7 +2,7 @@ import React from 'react'
 import LinkButton from '../Components/LinkButton'
 import classes from "./Home.module.css"
 import ServiceList from "../Components/Services/servicesList";
-
+import Data from "../Components/Services/Data";
 
 const Home = () => {
   return (
@@ -14,8 +14,8 @@ const Home = () => {
 
       <LinkButton title={"Get started"} />
 
-      <ServiceList />
-      
+      <ServiceList data={Data} />
+
     </div>
   )
 }

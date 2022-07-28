@@ -23,3 +23,5 @@ const ServiceData = [
         body: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis"
     }
 ]
+
+export default ServiceData;
