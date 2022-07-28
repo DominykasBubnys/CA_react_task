@@ -6,8 +6,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: black;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("./Assets/hero-bg.jpg");
+  background-size:auto;
 
 }
 

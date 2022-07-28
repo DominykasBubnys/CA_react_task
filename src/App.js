@@ -6,7 +6,7 @@ import {
   Route
 } from "react-router-dom";
 
-
+import MainNavigation from "./Components/Navigation/mainNavigation";
 import Home from "./Pages/Home";
 
 const App = () => {
@@ -20,6 +20,7 @@ const App = () => {
   return (
     <Router>
       <main>{routes}</main>
+      <MainNavigation />
       <h1 style={ {color:"red"}}>Hello</h1>
     </Router>
   );

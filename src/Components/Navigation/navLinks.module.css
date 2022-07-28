@@ -1,0 +1,33 @@
+.nav_links{
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.nav_links li{
+  list-style: none;
+  padding: 10px;
+
+}
+
+.nav_links a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #16507b;
+
+}
+
+.nav_links a:hover{
+  color: #2487ce;
+}
+
+.link_get_started{
+  border-radius: 5px;
+  background-color: #2487ce;
+}
+
+.link_get_started a{
+  color: azure;
+
+}

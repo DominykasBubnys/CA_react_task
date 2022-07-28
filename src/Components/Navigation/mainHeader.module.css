@@ -1,0 +1,13 @@
+.main_header {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color:aliceblue;
+  justify-content: space-around;
+  color: #16507b;
+}
+  
