@@ -1,0 +1,13 @@
+.main{
+    margin-top: 6rem;
+    height: 100%;
+    text-align: center;
+}
+
+.main h1{
+    color: #16507b;
+    font-size: 5vw;
+    width: 50%;
+    margin: 10rem auto;
+    margin-bottom: 0;
+}

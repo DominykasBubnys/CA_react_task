@@ -1,0 +1,12 @@
+.button a{
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #2487ce;
+    padding: 10px 40px;
+    color: azure;
+}
+
+.button{
+
+    margin: 4rem auto;
+}
